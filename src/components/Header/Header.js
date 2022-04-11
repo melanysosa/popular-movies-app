@@ -11,7 +11,7 @@ const Header = ({ value, onSubmit, onChange, onClickApp, valueApp }) => {
 						value={valueApp}
 					>
 						<Icon />
-						<label>Popular Movies</label>
+						<label>Home</label>
 					</div>
 
 					<form className='d-flex' autoComplete='off' onSubmit={onSubmit}>
