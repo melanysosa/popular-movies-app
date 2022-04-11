@@ -1,0 +1,17 @@
+.movieBox {
+	display: grid;
+	color: rgb(255, 255, 255);
+	background-color: rgb(51, 61, 61);
+	min-height: 460px;
+}
+
+.movieBox:hover {
+	cursor: pointer;
+	background: rgb(118, 146, 170);
+	background: linear-gradient(
+		0deg,
+		rgba(39, 93, 161, 1) 0%,
+		rgba(41, 119, 212, 1) 100%
+	);
+	transition: border 300ms;
+}
