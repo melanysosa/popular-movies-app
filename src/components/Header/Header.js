@@ -13,7 +13,6 @@ const Header = ({ value, onSubmit, onChange, onClickApp, valueApp }) => {
 						<Icon />
 						<label>Home</label>
 					</div>
-
 					<form className='d-flex' autoComplete='off' onSubmit={onSubmit}>
 						<input
 							type='search'
